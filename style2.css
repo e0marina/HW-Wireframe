@@ -43,11 +43,7 @@ aside {
     width: 169px;
     height: 168px;
     font-weight: normal;
-    display: none;
     
-    
-
-
 }
 
 .asideHeader {
@@ -55,25 +51,20 @@ aside {
     font-size: 18px;
     margin-top: 20px;
     
-
 }
 
-/*for now,section doesn't seem to need to have the float
-cleared */
 
 section {
     overflow: hidden;
     background-color: #ebebeb;
     width: 495px;
     height: 168px;
-    top: 
-    left: 
-    right: 
-    bottom: 
 }
 
-.art {
-    display: none;
+.sectionHeader {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 article {
@@ -93,8 +84,9 @@ p{
 }
 
 footer {
+    clear: both;
     background-color: #ebebeb;
     padding: 20px;
     margin-top: 10px;
-    display: none;
+    
 }
