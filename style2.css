@@ -70,7 +70,7 @@ section {
     z-index: 1;
     padding: 9px;
     position: relative;
-    line-height: 2;
+    
     
 }
 
@@ -79,6 +79,7 @@ section {
     font-size: 18px;
     margin-top: 20px;
     margin: 0 auto;
+    line-height: 2;
     
 }
 
@@ -94,18 +95,31 @@ article {
     font-weight: normal;
     font-size: 18px;
     margin: 0 auto;
+    line-height: 2;
+}
+
+.h1andP {
+    position: relative;
+    
+    
 }
 
 h1 {
     color: #777;
     background-color: #ebebeb;
-    display: none;
+    margin: 0 auto;
+    width: 469px;
+    padding: 7px;
+
+   
 }
 p{
     color: #777;
     background-color: #ebebeb;
-    display: none;
-
+    margin: 0 auto;
+    width: 469px;
+    margin-top: 4px;
+    padding: 7px;
 }
 
 footer {
