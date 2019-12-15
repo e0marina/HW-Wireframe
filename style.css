@@ -38,7 +38,14 @@ footer {
 
 }
 
-.art {
+section {
+    width: 495px;
+    
+
+    
+}
+
+#art {
     color: #ebebeb;
     background-color: #777;
 }
@@ -48,9 +55,4 @@ h5,
 p {
     color: #777;
     background-color: #ebebeb;
-}
-
-section {
-    width: 495px;
-    
 }

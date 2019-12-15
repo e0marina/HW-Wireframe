@@ -1,0 +1,100 @@
+
+body {
+    border: 1px solid;
+    border-color: yellow;
+    position: relative;
+    font-size: 18px;
+    width: 960px;
+    height: 500px;
+    color: #777;
+    background-color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.container {
+        margin: 0 auto;
+        position: absolute;
+        top: 0px;
+        left: 15%;
+        text-align: center;
+        width: 70%;
+        overflow: hidden;
+
+}
+
+header {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+nav {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+aside {
+    background-color: #ebebeb;
+    float: right;
+    width: 169px;
+    height: 168px;
+    font-weight: normal;
+    display: none;
+    
+    
+
+
+}
+
+.asideHeader {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 20px;
+    
+
+}
+
+/*for now,section doesn't seem to need to have the float
+cleared */
+
+section {
+    overflow: hidden;
+    background-color: #ebebeb;
+    width: 495px;
+    height: 168px;
+    top: 
+    left: 
+    right: 
+    bottom: 
+}
+
+.art {
+    display: none;
+}
+
+article {
+        color: #ebebeb;
+        background-color: #777;
+        
+}
+
+h1 {
+    color: #777;
+    background-color: #ebebeb;
+}
+p{
+    color: #777;
+    background-color: #ebebeb;
+
+}
+
+footer {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-top: 10px;
+    display: none;
+}
